@@ -8,5 +8,5 @@ letra = [A-Za-z]
 ident = {letra} ({letra}|{digito})*
 
 %%
-{numero} {System.out.print("<num: "+yytext()+"> Linha "+yyline+", Coluna "+yycolumn);}
-{ident} {System.out.print("<ident: "+yytext()+"> Linha "+yyline+", Coluna "+yycolumn);}
+{numero} {System.out.print("<Numero:'"+yytext()+"', linha["+yyline+"], coluna ["+yycolumn+"]>");}
+{ident} {System.out.print("<Identificador:'"+yytext()+"', linha["+yyline+"], coluna ["+yycolumn+"]>");}

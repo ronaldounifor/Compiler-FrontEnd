@@ -1,0 +1,6 @@
+package Sample api;
+
+fn Main() -> i32 {
+  Print("Ola104h""01h4¨@¨!@#¨!@(#&), mundo!");
+  return 0;
+}
